@@ -30,4 +30,8 @@ streamlit run interactive_regression_app.py
 互動預測: 在側邊欄下方，您可以輸入一個溫度值，然後點擊按鈕來獲得模型對該溫度的銷售額預測。
 
 # Gemini prompt & response
-- [Gemini](https://g.co/gemini/share/6cfc8fc4a45b)
+- [HW1-Gemini-prompt](https://g.co/gemini/share/6cfc8fc4a45b)
+
+# Streamlit app
+已將 APP 部屬至 Streamlit Community Cloud，可從以下網址進入使用
+- [HW1-Streamlit-app](https://interactiveregressionapp-william.streamlit.app/)
