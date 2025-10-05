@@ -111,12 +111,13 @@ with col4:
     st.pyplot(fig2)
 
 # === 步驟 6: 部署 (Deployment) ===
-st.header("第六步：部署與互動預測")
+# st.header("第六步：部署與互動預測")
 st.sidebar.header("2. 進行即時預測")
 user_temp = st.sidebar.number_input('輸入一個溫度 (°C) 進行預測:', min_value=-10.0, max_value=50.0, value=25.0, step=0.5)
 
 if st.sidebar.button('預測銷售額'):
     predicted_sale = model.predict(np.array([[user_temp]]))
     st.sidebar.info(f"當溫度為 **{user_temp}°C** 時，預測的銷售額約為 **{predicted_sale[0]:.2f}** 元。")
+
 
 
