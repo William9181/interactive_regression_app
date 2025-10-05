@@ -1,7 +1,10 @@
-# interactive_regression_app
-如何執行互動式線性迴歸應用
-這個專案使用 Python 的 Streamlit 函式庫建立了一個網頁應用程式。請依照以下步驟來執行。
+# HW1
+write python to solve simple linear regression problem, following CRISP-DM steps,要有prompt and 過程, 不可只有CODE AND RESULT
+      1. CRISP-DM
+      2. allow user to modify a in ax+b, noise, number of points 
+      3. streamlit or flask web, 框架 deployment
 
+# setup
 步驟 1: 安裝必要的函式庫
 您需要安裝 streamlit, pandas, scikit-learn, matplotlib 和 seaborn。
 打開您的終端機或命令提示字元，執行以下指令：
