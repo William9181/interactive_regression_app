@@ -4,7 +4,7 @@ write python to solve simple linear regression problem, following CRISP-DM steps
 2. allow user to modify a in ax+b, noise, number of points 
 3. streamlit or flask web, 框架 deployment
 
-# setup
+# Setup
 ## 步驟 1: 安裝必要的函式庫
 您需要安裝 streamlit, pandas, scikit-learn, matplotlib 和 seaborn。
 打開您的終端機或命令提示字元，執行以下指令：
